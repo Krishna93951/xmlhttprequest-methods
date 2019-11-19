@@ -1,7 +1,6 @@
-exports.allResponseHeaders = function allResponseHeaders (){
+exports.responseHeader = function responseHeader (){
   var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://stackblitz.com/", true);
 xhr.send();
-xhr.HEADERS_RECEIVED;
 xhr.getAllResponseHeaders();
 }
